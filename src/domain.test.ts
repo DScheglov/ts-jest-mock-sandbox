@@ -31,8 +31,4 @@ describe('Domain', () => {
     Domain.log();
     expect(console.log).toBeCalledWith('this is a Domain { inspect }');
   });
-
-  it('should print to the console', () => {
-    console.log('Hello World');
-  });
 });
